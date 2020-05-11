@@ -15,7 +15,7 @@ public class IndexController {
      * 2.服务端获取数据时,必须使用"{}"包裹参数
      * 3.使用@PathVariable注解实现数据转化
      */
-    @RequestMapping("/{moudelName}")
+    @RequestMapping("/page/{moudelName}")
     public String addItem(@PathVariable String moudelName){
         System.out.println("进入" + moudelName);
         return moudelName;
