@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @MapperScan("com.cp.mapper")
 @SpringBootApplication
-public class SpringBootRun {
+public class SpringBootRun_Manage {
 	
 	public static void main(String[] args) {
 		
-		SpringApplication.run(SpringBootRun.class, args);
+		SpringApplication.run(SpringBootRun_Manage.class, args);
 	}
 }
